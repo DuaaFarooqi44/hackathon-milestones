@@ -1,0 +1,90 @@
+body {
+    font-family: 'Times New Roman';
+
+}
+
+#container {
+    background-color: rgb(238, 232, 232);
+    border: 1px solid black;
+    width: 850px;
+    margin: 50px auto 0;
+    padding: 25px;
+
+}
+
+.sub-heading {
+    background-color: blue;
+    color: aliceblue;
+    text-align: center;
+    padding: 1px;
+    border-radius: 10px;
+    border: 7px solid white;
+    width: 80%;
+    margin-left: 9.5%;
+
+
+
+}
+
+.all-info {
+
+    padding: 20px;
+}
+
+input[type=text]{
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 90%;
+
+}
+
+textarea {
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 90%;  
+    font-size: 15px; 
+    font-family: 'Times New Roman';
+}
+
+button {
+    
+    box-shadow: 0 0 12px rgb(3, 3, 82);
+    font-size: 20px;
+    color: rgb(5, 5, 5);
+    float: right;
+    padding: 5px;
+    margin-bottom: 0 auto;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(221, 212, 212);
+
+}
+
+button:hover{
+    background-color: rgb(5, 5, 247);
+    color: white;   
+}
+
+#resume-display{
+    background-color: lightsteelblue;
+    border: 1px solid black;
+    width: 850px;
+    margin: 50px auto 0;
+    padding: 25px;
+
+}
+
+#resume-display img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+}
+
+hr{
+    border: 1px solid rgb(111, 157, 216);
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <!--create a form-->
+    <form id="form-to-resume">
+<div id="container">
+    
+        <div class="sub-heading">
+        <h1> Resume Form </h1>
+    
+        </div>
+
+        <p style="color: red;"> Fill this form carefully!</p>
+
+        <div class="all-info">
+
+            <!--Personal Information-->
+
+            <p><i class="fa fa-solid fa-camera"></i> <b>Profile Picture</b></p>
+            <input type="file" id="profilePic" accept="image/*"> 
+            
+            <p><i class="fa fa-solid fa-user"></i><b>   Name:</b> </p>
+            <input type="text" id="name" placeholder="Enter here!">
+            
+            <p><i class="fa fa-solid fa-user"></i><b>   About Me:</b> </p>
+            <textarea  id="aboutMe" placeholder="Enter here!" rows="4"></textarea>
+
+            <br><br>
+            
+              <!--Contact Details-->
+            
+            <p><i class="fa fa-solid fa-phone"></i><b style="font-size: 20px;">  Contact Details</b></p>
+            
+            <p><i class="fa fa-solid fa-envelope"></i>  Email-id</p>
+            <input type="text" id="email" placeholder="Enter here!">
+
+            <p> <i class="fa fa-brands fa-linkedin"></i>  LinkdIn Link</p>
+            <input type="text" id="linkdin" placeholder="Enter here!">
+
+            <p><i class="fa fa fa-brands fa-github"></i>   Github Link</p>
+            <input type="text" id="github" placeholder="Enter here!">
+
+
+           <!-- Education, Skills, Experience-->
+
+            <br><br>
+            <p><i class="fa fa-solid fa-graduation-cap"></i> <b style="font-size: 20px;"> Education</b></p>
+            <textarea  id="education" placeholder="Enter here!" rows="4"></textarea>
+
+            <br><br>
+            <p><i class="fa fa-solid fa-gear"></i> <b style="font-size: 20px;"> Skills</b></p>
+            <textarea  id="skills" placeholder="Enter here!" rows="4"></textarea>
+
+
+            <br><br>
+            <p><i class="fa fa-solid fa-briefcase"></i> <b style="font-size: 20px;"> Experience</b></p>
+            <textarea  id="experience" placeholder="Enter here!" rows="4"></textarea>
+            <br><br>
+
+
+               <!--Create a button for generate resume-->            
+
+            <button type="submit"> <b>Generate Resume</b></button>
+        </div>
+
+    </form>
+</div>
+
+         <!--Resume Display -->
+         <div id="resume-display">         
+</div>
+
+<script src="script.js"></script>    
+
+
+</body>
+
+</html>
